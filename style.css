@@ -25,8 +25,8 @@
 }
 
 .header__menu__link{
-    font-family: var(--fuente-Krona);
-    font-size: 1.5rem;
+    font-family: var(--fuente-kodchasan);
+    font-size: 2rem;
     font-weight: 600;
     color: var(--color-terciario);
     text-decoration: none;
@@ -36,6 +36,48 @@
     display: flex;
     align-items: center;
     padding: 7% 15%;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
+}
+
+.presentacion__contenido__titulo{
+    font-size: 4rem;
+    font-family: var(--fuente-kodchasan);
+}
+
+.presentacion__contenido__texto{
+ font-size: 1.25rem;
+ font-family: var(--fuente-kodchasan);
+}
+
+.presentacion__contenido__enlaces{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.presentacion__contenido__enlaces__link {
+    width: auto; /* O min-width: 10% si quieres un ancho mínimo */
+    height: auto;
+    padding: 21.5px 10px; /* Agregué padding lateral */
+    text-align: center;
+    border-radius: 8px;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-terciario);
+    display: inline-flex; /* Cambiado de flex a inline-flex */
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    gap: 10px;
+}
+
+
+.presentacion__contenido__enlaces__subtitulo{
+    font-family: var(--fuente-Krona);
+    font-size: 1.5rem;
+    font-weight: 400;
 }
