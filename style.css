@@ -34,6 +34,8 @@
     font-weight: 600;
     color: var(--color-secundario);
     text-decoration: none;
+    position: relative;
+    bottom: 15px;
 }
 
 body{
@@ -120,4 +122,15 @@ body{
 
 .footer{
     background-color: var(--color-primario);
+    font-family: var(--fuente-kodchasan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0% 0% 1%;
+}
+
+.footer__stronge{
+    position: relative;
+    bottom: 15px;
+    font-size: 1.5rem;
 }
