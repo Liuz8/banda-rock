@@ -11,6 +11,7 @@
     --color-terciario: #FFCBDD;
     --color-cuarto: #2A2B2A;
     --color-cinco: #BA4B00;
+    --color-seis: #35A7FF;
     --fuente-montserrat: 'Montserrat', sans-serif;
     --fuente-Krona: 'Krona One', sans-serif;
     --fuente-kodchasan: "Kodchasan", serif;
@@ -67,11 +68,17 @@ body{
 .presentacion__contenido__titulo{
     font-size: 4rem;
     font-family: var(--fuente-kodchasan);
+    color: var(--color-seis);
 }
 
 .presentacion__contenido__texto{
  font-size: 1.25rem;
  font-family: var(--fuente-kodchasan);
+ color: white;
+}
+
+.presentacion__contenido__strong{
+    color: var(--color-seis);
 }
 
 .presentacion__contenido__enlaces{
@@ -91,7 +98,7 @@ body{
     font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-    color: var(--color-secundario);
+    color: white;
     border: 2px solid var(--color-terciario);
     gap: 10px;
 }
