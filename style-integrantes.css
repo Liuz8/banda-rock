@@ -87,11 +87,10 @@ body{
     display: flex;
     align-items: center;
     gap: 32px;
+    gap: 125px;
 }
 
 .presentacion__contenido__enlaces__link {
-    width: 24px;
-    height: 24px;
     text-align: center;
     text-decoration: none;
     gap: 10px;
@@ -125,4 +124,13 @@ body{
     position: relative;
     bottom: 15px;
     font-size: 1.5rem;
+}
+
+.fotos{
+    border-radius: 20px;
+}
+
+.contenedor_fotos{
+    display: flex;
+    gap: 30px;
 }
