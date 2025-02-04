@@ -144,8 +144,18 @@ body{
     border-radius: 20px;
     z-index: 2;
     top: 50%;
-    left: 50%;
+    left: 12%;
     transform: translate(-50%, -50%);
+
+    /* Centrar texto con flexbox */
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;  /* Centra verticalmente */
+    text-align: center;  /* Asegura que el texto esté alineado en el centro */
+    color: var(--color-terciario);  /* Para que el texto sea visible sobre el fondo oscuro */
+    font-family: var(--fuente-kodchasan); /* Usa la fuente que definiste */
+    font-size: 1rem;  /* Ajusta el tamaño del texto */
+    padding: 10px;  /* Para que el texto no esté pegado a los bordes */
 }
 
 button {
@@ -157,8 +167,16 @@ button {
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
+    display: flex;
+    position: relative;
+    margin: 15px auto 0 auto; /* Espacio arriba y centrado horizontalmente */
 }
 
 button:hover {
     background-color: var(--color-hover);
+}
+
+.botones{
+    display: flex;
+    gap: 150px;
 }
