@@ -137,12 +137,13 @@ body{
 }
 
 .inf_luis{
+    display: none;
     position: absolute;
     width: 150px;
     height: 210px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    z-index: 2;
+    z-index: 1;
     top: 50%;
     left: 11.5%;
     transform: translate(-50%, -50%);
@@ -159,6 +160,7 @@ body{
 }
 
 .inf_oscar{
+    display: none;
     position: absolute;
     width: 150px;
     height: 210px;
