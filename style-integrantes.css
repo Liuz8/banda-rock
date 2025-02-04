@@ -149,7 +149,6 @@ body{
     transform: translate(-50%, -50%);
 
     /* Centrar texto con flexbox */
-    display: flex;
     justify-content: center;  /* Centra horizontalmente */
     align-items: center;  /* Centra verticalmente */
     text-align: center;  /* Asegura que el texto esté alineado en el centro */
@@ -172,7 +171,50 @@ body{
     transform: translate(-50%, -50%);
 
     /* Centrar texto con flexbox */
-    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;  /* Centra verticalmente */
+    text-align: center;  /* Asegura que el texto esté alineado en el centro */
+    color: var(--color-terciario);  /* Para que el texto sea visible sobre el fondo oscuro */
+    font-family: var(--fuente-kodchasan); /* Usa la fuente que definiste */
+    font-size: 1rem;  /* Ajusta el tamaño del texto */
+    padding: 10px;  /* Para que el texto no esté pegado a los bordes */
+}
+
+.inf_erick{
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 210px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: 2;
+    top: 50%;
+    left: 63.0%;
+    transform: translate(-50%, -50%);
+
+    /* Centrar texto con flexbox */
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;  /* Centra verticalmente */
+    text-align: center;  /* Asegura que el texto esté alineado en el centro */
+    color: var(--color-terciario);  /* Para que el texto sea visible sobre el fondo oscuro */
+    font-family: var(--fuente-kodchasan); /* Usa la fuente que definiste */
+    font-size: 1rem;  /* Ajusta el tamaño del texto */
+    padding: 10px;  /* Para que el texto no esté pegado a los bordes */
+}
+
+.inf_daniel{
+    display: none;
+    position: absolute;
+    width: 150px;
+    height: 210px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: 2;
+    top: 50%;
+    left: 88.7%;
+    transform: translate(-50%, -50%);
+
+    /* Centrar texto con flexbox */
     justify-content: center;  /* Centra horizontalmente */
     align-items: center;  /* Centra verticalmente */
     text-align: center;  /* Asegura que el texto esté alineado en el centro */
@@ -203,4 +245,15 @@ button:hover {
 .botones{
     display: flex;
     gap: 150px;
+}
+
+.mostrar {
+    display: flex !important;  /* Hace que el div aparezca */
+}
+
+span{
+    color: var(--color-seis);
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: bold;
 }
