@@ -144,7 +144,29 @@ body{
     border-radius: 20px;
     z-index: 2;
     top: 50%;
-    left: 12%;
+    left: 11.5%;
+    transform: translate(-50%, -50%);
+
+    /* Centrar texto con flexbox */
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;  /* Centra verticalmente */
+    text-align: center;  /* Asegura que el texto esté alineado en el centro */
+    color: var(--color-terciario);  /* Para que el texto sea visible sobre el fondo oscuro */
+    font-family: var(--fuente-kodchasan); /* Usa la fuente que definiste */
+    font-size: 1rem;  /* Ajusta el tamaño del texto */
+    padding: 10px;  /* Para que el texto no esté pegado a los bordes */
+}
+
+.inf_oscar{
+    position: absolute;
+    width: 150px;
+    height: 210px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: 2;
+    top: 50%;
+    left: 37.2%;
     transform: translate(-50%, -50%);
 
     /* Centrar texto con flexbox */
