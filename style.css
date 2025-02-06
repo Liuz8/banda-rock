@@ -6,12 +6,12 @@
 }
 
 :root{
-    --color-primario:#F3DE2C;
+    --color-primario:#FF204E;
     --color-secundario: #000000;
-    --color-terciario: #FFCBDD;
-    --color-cuarto: #2A2B2A;
-    --color-cinco: #BA4B00;
-    --color-seis: #35A7FF;
+    --color-terciario: #FF204E;
+    --color-cuarto: #A0153E;
+    --color-cinco: #A0153E;
+    --color-seis: #DF00224D6D14;
     --fuente-montserrat: 'Montserrat', sans-serif;
     --fuente-Krona: 'Krona One', sans-serif;
     --fuente-kodchasan: "Kodchasan", serif;
