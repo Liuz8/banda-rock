@@ -134,3 +134,39 @@ body{
     bottom: 15px;
     font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+    .header__menu__link{
+        font-family: var(--fuente-kodchasan);
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--color-secundario);
+        text-decoration: none;
+        position: relative;
+        bottom: 7px;
+    }
+
+    .presentacion__contenido {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fotogrupal {
+        order: -1; /* Mueve la foto grupal al inicio */
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .presentacion__contenido__enlaces {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .footer__stronge{
+        position: relative;
+        bottom: 10px;
+        font-size: 1.5rem;
+    }
+}
