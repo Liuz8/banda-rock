@@ -44,7 +44,7 @@ body{
 
 .presentacion{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     background-color: var(--color-cinco);
     padding: 3.5% 7.5%;
@@ -130,11 +130,6 @@ body{
     z-index: 0;
 }
 
-.contenedor_fotos{
-    display: flex;
-    gap: 30px;
-    position: relative;
-}
 
 .inf_luis{
     display: none;
@@ -144,9 +139,7 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     z-index: 1;
-    top: 50%;
-    left: 11.5%;
-    transform: translate(-50%, -50%);
+    top: 39%;
 
     /* Centrar texto con flexbox */
     justify-content: center;  /* Centra horizontalmente */
@@ -166,9 +159,6 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     z-index: 2;
-    top: 50%;
-    left: 37.2%;
-    transform: translate(-50%, -50%);
 
     /* Centrar texto con flexbox */
     justify-content: center;  /* Centra horizontalmente */
@@ -256,4 +246,60 @@ span{
     display: inline-block;
     white-space: nowrap;
     font-weight: bold;
+}
+
+/* Estilo general */
+.presentacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.integrantes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Estilos para cada integrante */
+.integrante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.fotos {
+    margin-top: 10px;
+    width: 200px;      /* Ancho fijo */
+    height: 300px;     /* Alto fijo */
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin deformarse */
+}
+
+.boton-luis, .boton-oscar, .boton-erick, .boton-daniel {
+    margin-top: 10px;
+}
+
+/* Estilos específicos para pantallas móviles */
+@media (max-width: 768px) {
+    .presentacion {
+        padding: 20px;
+    }
+    
+    .integrante {
+        width: 100%;
+    }
+
+    .fotos {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Opcional: hacer que los botones se centren */
+    .boton-luis, .boton-oscar, .boton-erick, .boton-daniel {
+        width: 100%;
+    }
 }

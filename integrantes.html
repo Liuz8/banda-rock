@@ -9,58 +9,62 @@
 <body>
     <header class="header">
         <nav class="header__menu">
-                <a class="header__menu__link" href="index.html">HOME</a>
-                <a class="header__menu__link" href="">INTEGRANTES</a>
+            <a class="header__menu__link" href="index.html">HOME</a>
+            <a class="header__menu__link" href="">INTEGRANTES</a>
         </nav>
     </header>
     <main class="presentacion">
-        <div class="presentacion__contenido__enlaces">
+        <!-- Contenido de cada integrante -->
+         <div class="integrantes">
+        <div class="integrante">
             <a class="presentacion__contenido__enlaces__link" href="https://www.instagram.com/liuz8c/" target="_blank">
                 <img src="assets/logo-instagram.png" alt="logo de instagram" width="100px" height="100px">
             </a>
-            <a class="presentacion__contenido__enlaces__link" href="https://www.instagram.com/oscar_barret/" target="_blank">
-                <img src="assets/logo-instagram.png" alt="logo de instagram" width="100px" height="100px">
-            </a>
-            <a class="presentacion__contenido__enlaces__link" href="https://www.instagram.com/ericklopez2123/" target="_blank">
-                <img src="assets/logo-instagram.png" alt="logo de instagram" width="100px" height="100px">
-            </a>
-            <a class="presentacion__contenido__enlaces__link" href="https://www.instagram.com/danielramirez9532/" target="_blank">
-                <img src="assets/logo-instagram.png" alt="logo de instagram" width="100px" height="100px">
-            </a>
-        </div>
-        <div class="contenedor_fotos">
             <div class="inf_luis">
                 Luis: Baterista, el más guapo del crew, empezó a estudiar música a los 15 años, empezando con guitarra para después pasarse a la batería.
             </div>
             <img class="fotos" src="img/foto-luis.jpg" alt="Foto de Luis Angel" width="200px" height="auto">
-            
+            <button id="buton-luis" class="boton-luis">CLICK</button>
+        </div>
+
+        <div class="integrante">
+            <a class="presentacion__contenido__enlaces__link" href="https://www.instagram.com/oscar_barret/" target="_blank">
+                <img src="assets/logo-instagram.png" alt="logo de instagram" width="100px" height="100px">
+            </a>
             <div class="inf_oscar">
                 Oscar: Bajista, no le den cerveza o se pone malacopa, empezó a estudiar música desde secundaria con guitarra y se pasó al bajo. Futuro Arquitecto.
             </div>
             <img class="fotos" src="img/foto-oscar.jpg" alt="Foto de Oscar" width="200px" height="auto">
-        
+            <button id="buton-oscar" class="boton-oscar">CLICK</button>
+        </div>
+
+        <div class="integrante">
+            <a class="presentacion__contenido__enlaces__link" href="https://www.instagram.com/ericklopez2123/" target="_blank">
+                <img src="assets/logo-instagram.png" alt="logo de instagram" width="100px" height="100px">
+            </a>
             <div class="inf_erick">
                 Erick: Guitarrista, es el que toca mejor la guitarra de nosotros, no le preguntes si hay sapos.
             </div>
             <img class="fotos" src="img/foto-erick.jpg" alt="Foto de Erick" width="200px" height="auto">
-        
+            <button id="buton-erick" class="boton-erick">CLICK</button>
+        </div>
+
+        <div class="integrante">
+            <a class="presentacion__contenido__enlaces__link" href="https://www.instagram.com/danielramirez9532/" target="_blank">
+                <img src="assets/logo-instagram.png" alt="logo de instagram" width="100px" height="100px">
+            </a>
             <div class="inf_daniel">
-                Daniel: Vocalista, el fuck boing y chapulín del crew, diganle que minimo escuche las canciones, ingeniero de audio.
+                Daniel: Vocalista, el fuck boing y chapulín del crew, diganle que mínimo escuche las canciones, ingeniero de audio.
             </div>
             <img class="fotos" src="img/foto-daniel.jpg" alt="Foto de Daniel" width="200px" height="auto">
-        </div>
-        
-        <div class="botones">
-            <button id="buton-luis" class="boton-luis">CLICK</button>
-            <button id="buton-oscar" class="boton-oscar">CLICK</button>
-            <button id="buton-erick" class="boton-erick">CLICK</button>
             <button id="buton-daniel" class="boton-daniel">CLICK</button>
-            <script src="app.js"></script>
         </div>
+    </div>
         
     </main>
     <footer>
         <p class="footer"><strong class="footer__stronge">Pagina creada por Luis Angel Martínez Franco</strong></p>
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
