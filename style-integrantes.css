@@ -184,7 +184,7 @@ body{
     border-radius: 20px;
     z-index: 2;
     top: 50%;
-    left: 63.0%;
+    left: 50%;
     transform: translate(-50%, -50%);
 
     /* Centrar texto con flexbox */
