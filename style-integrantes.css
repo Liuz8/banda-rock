@@ -143,7 +143,9 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     z-index: 1;
-    top: 39%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     /* Centrar texto con flexbox */
     justify-content: center;  /* Centra horizontalmente */
@@ -163,6 +165,10 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 
     /* Centrar texto con flexbox */
     justify-content: center;  /* Centra horizontalmente */
