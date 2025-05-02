@@ -130,6 +130,10 @@ body{
     z-index: 0;
 }
 
+.foto-container{
+    position: relative;
+    display: inline-block;
+}
 
 .inf_luis{
     display: none;
@@ -168,11 +172,6 @@ body{
     font-family: var(--fuente-kodchasan); /* Usa la fuente que definiste */
     font-size: 1rem;  /* Ajusta el tamaño del texto */
     padding: 10px;  /* Para que el texto no esté pegado a los bordes */
-}
-
-.foto-container{
-    position: relative;
-    display: inline-block;
 }
 
 .inf_erick{
