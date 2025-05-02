@@ -42,17 +42,17 @@ body{
     background-color: var(--color-cuarto);
 }
 
-.presentacion{
+.presentacion {
     display: flex;
-    flex-direction: row;
+    flex-direction: column; /* Cambia a 'row' si prefieres horizontal */
     align-items: center;
+    justify-content: center;
     background-color: var(--color-cinco);
-    padding: 3.5% 7.5%;
-    margin-top: 2.5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 2.5%;
+    padding: 0;
+    margin: 0 auto; /* Centra horizontalmente */
     border-radius: 61px;
+    gap: 30px; /* Espacio entre elementos hijos */
+    height: 100vh; /* O quítalo si no quieres que ocupe toda la altura */
 }
 
 .presentacion__contenido{
@@ -256,16 +256,6 @@ span{
     display: inline-block;
     white-space: nowrap;
     font-weight: bold;
-}
-
-/* Estilo general */
-.presentacion {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
 }
 
 .integrantes{
