@@ -176,6 +176,17 @@ body{
       font-size: 1.5rem;
       bottom: 0;
     }
+
+    html, body{
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        flex: 1;
+    }
   
     .presentacion__contenido {
       flex-direction: column;
@@ -220,10 +231,16 @@ body{
       height: 100%;
       z-index: 1;
     }
+
+    footer {
+        background-color: var(--color-primario);
+        text-align: center;
+        padding: 1rem;
+    }
   
     .footer__stronge {
       font-size: 1rem;
-      text-align: center;
+      color: white;
     }
   }
   
