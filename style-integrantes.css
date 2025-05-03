@@ -61,18 +61,6 @@ body{
     gap: 50px;
 }
 
-.presentacion__contenido__tituloytexto{
-    border: 2px solid var(--color-terciario);
-    border-radius: 63px;
-    padding: 21.5px 10px 40px 20px;
-}
-
-.presentacion__contenido__titulo{
-    font-size: 4rem;
-    font-family: var(--fuente-kodchasan);
-    color: var(--color-seis);
-}
-
 .presentacion__contenido__texto{
  font-size: 1.25rem;
  font-family: var(--fuente-kodchasan);
