@@ -272,23 +272,94 @@ span{
     margin-top: 10px;
 }
 
-/* Estilos específicos para pantallas móviles */
-@media (max-width: 768px) {
-    .presentacion {
-        padding: 20px;
-    }
-    
-    .integrante {
-        width: 100%;
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+
+    .header {
+        padding: 5% 5%;
+        text-align: center;
     }
 
-    .fotos {
-        max-width: 100%;
+    .header__menu {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .header__menu__link {
+        font-size: 1.5rem;
+    }
+
+    .presentacion {
+        padding: 5%;
+        border-radius: 20px;
+        gap: 20px;
         height: auto;
     }
 
-    /* Opcional: hacer que los botones se centren */
-    .boton-luis, .boton-oscar, .boton-erick, .boton-daniel {
-        width: 100%;
+    .presentacion__contenido {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .presentacion__contenido__texto {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .presentacion__contenido__enlaces {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .presentacion__contenido__enlaces__subtitulo {
+        font-size: 1.25rem;
+    }
+
+    .fotogrupal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .integrantes {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .botones {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .fotos {
+        width: 150px;
+        height: 225px;
+    }
+
+    .inf_luis, .inf_oscar, .inf_erick, .inf_daniel {
+        width: 130px;
+        height: 190px;
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .footer {
+        padding: 5% 2%;
+        text-align: center;
+    }
+
+    .footer__stronge {
+        font-size: 1.25rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    span {
+        font-size: 0.9rem;
     }
 }
