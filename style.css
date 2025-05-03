@@ -54,7 +54,7 @@ body{
     margin-bottom: 2.5%;
     border-radius: 61px;
     margin: 5% auto;
-    padding: 5%;
+    padding: 0%;
 }
 
 .presentacion__contenido{
@@ -66,6 +66,8 @@ body{
 .presentacion__contenido__tituloytexto{
     border: 2px solid var(--color-terciario);
     border-radius: 63px;
+    width: 100%;
+    max-width: 800px;
     padding: 21.5px 10px 40px 20px;
 }
 
@@ -119,7 +121,7 @@ body{
 .contenedor-imagen {
   position: relative;
   display: inline-block;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .fotogrupal {
