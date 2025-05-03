@@ -200,6 +200,11 @@ body{
     .presentacion__contenido__titulo {
       font-size: 2.5rem;
     }
+
+    .presentacion__contenido__tituloytexto {
+        width: 85%;
+        max-width: 350px;
+      }
   
     .presentacion__contenido__texto {
       font-size: 1rem;
