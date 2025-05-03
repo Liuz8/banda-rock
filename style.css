@@ -119,6 +119,10 @@ body{
     flex-direction: row;
     border: #22d4f4 22px;
     align-items: flex-end;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
 }
 
 .footer{
