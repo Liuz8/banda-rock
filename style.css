@@ -68,7 +68,7 @@ body{
 }
 
 .presentacion__contenido__titulo{
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 1px var(--color-terciario);
     font-size: 4rem;
     font-family: var(--fuente-kodchasan);
     color: var(--color-seis);
